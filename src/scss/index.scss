@@ -19,35 +19,32 @@
   font-family: 'Ubuntu', sans-serif;
 
   .app{
-    min-width: 40rem;
+    max-width: 30rem;
     background-color: #222222;
     margin: auto;
-    padding: 3rem;
+    padding: 1.5rem;
     justify-content: space-between;
 
     header {
       text-transform: uppercase;
       text-align: center;
-      font-size: 2rem;
+      font-size: 1.5rem;
       margin-bottom: 2rem;
     }
 
     .quotes {
-      max-width: 30rem;
       background-color: antiquewhite;
       min-height: 15rem;
       color: #222222;
       font-size: 1.5rem;
       padding: 2rem;
-      margin: auto;
     }
 
     .button {
       background-color: antiquewhite;
-      margin: auto;
       padding: 1.5rem;
       text-transform: uppercase;
-      font-size: 2rem;
+      font-size: 1.5rem;
       font-weight: 900;
     }
 
