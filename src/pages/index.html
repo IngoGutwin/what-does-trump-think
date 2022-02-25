@@ -5,11 +5,31 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>WHAT DOES TRUMP THINK</title>
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- styles -->
+  <link rel="stylesheet" href="../css/index.css">
 </head>
 
-<body>
+<body class="home flex">
+  <div class="app flex">
+    <header>Random Donald Trump Quotes</header>
+    <section class="quotes">
+      <div class="quote-text" id="js-qoute-text"></div>
+    </section>
+    <div class="spinner-hidden"></div>
+    <section class="controls flex">
+      <button type="button" id="js-new-quote" class="new-quote button">
+        Generate a new quote
+      </button>
+    </section>
+  </div>
 
+  <script src="../js/index.js"></script>
 </body>
 
 </html>
